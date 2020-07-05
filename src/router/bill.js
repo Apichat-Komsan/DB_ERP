@@ -17,6 +17,7 @@ router.get('/bill', (req, res) => {
     if (result.length === 0) {
       res.send({ Message: 'ERROR' })
     } else {
+      console.log('ส่งข้อมูล bill สำเร็จ');
       res.send({ result, Message: 'OK' })
     }
   })
