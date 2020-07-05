@@ -1,6 +1,6 @@
 const mysql = require('mysql')
 const db = mysql.createConnection({
-  host: 'localhost',
+  host: '192.168.64.2',
   user: 'root',
   password: '',
   database: 'db_erp'
