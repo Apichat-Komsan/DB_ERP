@@ -4,7 +4,7 @@ const db = mysql.createConnection({
   user: 'root',
   password: 'Tbnoung001',
   database: 'erp',
-  port:3307
+  port:3306
 });
 // Test
 
